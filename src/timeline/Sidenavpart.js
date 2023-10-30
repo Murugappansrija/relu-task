@@ -4,10 +4,10 @@ import backgrount1 from "./imegas/pexels-ekaterina-12203460.png";
 import backgrount2 from "./imegas/pexels-genaro-servín-763210@2x.png";
 import background3 from "./imegas/pexels-pixabay-164455.png";
 import bacground4 from "./imegas/background4.png";
-import pp1 from "./imegas/profilep1.png";
-import pp2 from "./imegas/profilep2.png";
-import pp3 from "./imegas/profilep3.png";
-import pp4 from "./imegas/profilep4.png";
+import pp1 from "./imegas/pexels-anastasia-shuraeva-4406721@2x.png";
+import pp2 from "./imegas/pexels-andrea-piacquadio-3771118@2x.png";
+import pp3 from "./imegas/pexels-antoni-shkraba-4442005@2x.png";
+import pp4 from "./imegas/pexels-antoni-shkraba-4442102@2x.png";
 
 const Sidenavpart = () => {
   const [smallpost, setsmallpost] = useState([
@@ -54,7 +54,9 @@ const Sidenavpart = () => {
             <div
               className="smallimg"
               style={{ backgroundImage: `url(${post.userimage})` }}
-            ></div>
+            >
+
+            </div>
             <div className="userdata">
               <span className="prname">{post.username}</span>
               <span>@thewildwithyou</span>
@@ -68,30 +70,3 @@ const Sidenavpart = () => {
 
 export default Sidenavpart;
 
-{
-  /* <div className="pht-containers">
-<div className="cardimag">
-  <div className="smallimg"></div>
-  <div className="userdata">
-    <span className="prname"></span>
-    <span>@thewildwithyou</span>
-  </div>
-</div>
-</div> */
-}
-
-{
-  /* <div
-className="pht-containers"
-
->
-
-<div className="cardimag">
-  <div className="smallimg"></div>
-  <div className="userdata">
-    <span className="prname">{post.username}</span>
-    <span>@thewildwithyou</span>
-  </div>
-</div>
-</div> */
-}

@@ -43,5 +43,12 @@
 }
 .userdata{
     display: flex;
+    flex-direction: column;
     color: aliceblue;
+}
+.smallimg{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
 }
