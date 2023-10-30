@@ -6,10 +6,10 @@ import Post from './posts/Post'
 const Timeline = () => {
   return (
     <div className='timeline'>
-  <Post/>
+  {/* <Post/> */}
       <div className='timeline-left'>
         <div className='timeline-posts'>
-
+                 <Post/>
         </div>
       </div>
       <div className='timeline-right'>
@@ -20,3 +20,9 @@ const Timeline = () => {
 }
 
 export default Timeline
+
+{/* <div className="bottom-card">
+<img />
+<h3 className="crd-title">Modern Wall Decor Framed Painting</h3>
+<div className="pricing">$199.99</div>
+</div> */}
