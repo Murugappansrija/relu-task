@@ -38,3 +38,10 @@
     background-color: aquamarine;
     border-radius: 10px;
 }
+.pht-containers{
+   margin-top: 15px;
+}
+.userdata{
+    display: flex;
+    color: aliceblue;
+}
