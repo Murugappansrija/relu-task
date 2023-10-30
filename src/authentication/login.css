@@ -1,0 +1,46 @@
+
+.login-container{
+    width: 400px;
+    border: 1px solid gainsboro;
+    margin: 20px;
+    color: white;
+    border-radius: 50px 10px 50px 10px;
+    padding: 10px;
+    /* box-shadow: 8px 8px rgb(235, 119, 12);  */
+}
+/* .login-container:hover{
+    box-shadow: -8px -8px rgb(158, 46, 180);
+} */
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+  
+}
+.login> input{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+.login> input:focus{
+    outline: 4px solid gray;
+    border-radius: 20px;
+}
+.login>button{
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+   border-radius: 10px;
+    font-weight: 600;
+    color: white;
+}
+.login>button:hover{
+    cursor: pointer;
+    background-color:rgb(160, 16, 160) ;
+
+}

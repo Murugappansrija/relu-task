@@ -1,0 +1,57 @@
+
+.search > input[type="text"]{
+ margin:20px;
+ background-color: white;
+    height: 80px;
+    width: 620px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+}
+.main-post{
+   height: 600px;
+   width: 620px;
+   background-color: white;
+   margin: 10px 20px 10px 20px;
+   border-radius: 10px ;}
+
+.pepleposts{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px 20px 20px;
+}
+.avt{
+ margin-top: 20px;
+}
+.nameofuser{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 5px 10px;
+  
+}
+.imgpost{
+    width: 580px;
+    margin: 10px 10px 0px 15px;
+}
+.text-content{
+    margin: 0px 10px 0px 20px;
+}
+.moreicon{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.com-btn{
+    margin: 10px;
+}
+
+.cmt-count{
+    margin: 5px 10px 10px 5px;
+}
+.footer-section{
+    margin-left: 5px;
+   display: flex;
+   align-items: center;
+}
