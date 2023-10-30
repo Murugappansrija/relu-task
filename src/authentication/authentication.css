@@ -22,7 +22,7 @@
 .dynamic-auth{
     width: 400px;
     border: 1px solid gainsboro;
-   
+    background-color: black;
    
     color: white;
     border-radius: 50px 10px 50px 10px; 
@@ -36,6 +36,11 @@
     border-radius: 5px;
     color: aliceblue;
     margin-left: 20px;
+    
+}
+.dybutton:hover{
+      cursor: pointer;
+      background-color: blueviolet;
 }
 /* @media screen (max-width:756px){
     

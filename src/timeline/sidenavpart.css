@@ -1,0 +1,40 @@
+
+.seller-suggestion{
+    margin-top: 20px;
+   
+   
+}
+.margincontainer{
+    width: 260px;
+    height : 80px;
+    background-color: #88c2bb;
+    border-radius: 10px;
+    display: flex ;
+    align-items: center;
+    
+    
+  
+}
+.seller{
+ margin-left: 70px;
+}
+
+.photographer{
+    display: flex;
+    
+    margin-top: 30px;
+}
+.photographer>span{
+    margin-left: 20px;
+    color: #8D8D8D;
+}
+.photographer>span:hover{
+    color: black;
+    font-weight: 800;
+}
+.pht-containers{
+    height: 126px;
+    width: 244px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}

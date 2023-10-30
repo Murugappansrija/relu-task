@@ -12,15 +12,21 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
-  const handleSignup = () => {
-    createUserWithEmailAndPassword(auth, email, password).then(
-      signInWithEmailAndPassword(auth, email, password).then(
-        updateProfile(auth.currentUser, { displayName: name })
-      )
-    ).catch(err =>{
-      alert(err)
-    })
+  const handleSignup = (event) => {
+    event.preventDefault();
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((authUser) => {
+        signInWithEmailAndPassword(auth, email, password).then(
+          updateProfile(auth.currentUser, {
+            displayName: name,
+          })
+        );
+      })
+      .catch((err) => {
+        alert(err);
+      });
   };
+  
   return (
     <div className="signup-container">
       <div className="signup">

@@ -10,8 +10,19 @@ import StarsOutlinedIcon from "@mui/icons-material/StarsOutlined";
 import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
+import { useSelector, useDispatch } from "react-redux";
+import { logoutUser } from "../features/userSlice";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase";
+
 
 const Navigation = () => {
+  const user = useSelector((state) => state.data.user.user);
+  const dispatch = useDispatch();
+  const handelLogout = () => {
+    dispatch(logoutUser());
+    signOut(auth);
+  };
   return (
     <div className="sidenav">
       <div className="logodiv">
@@ -54,7 +65,7 @@ const Navigation = () => {
          <div className="sidenav__more"> 
         <button className="sidenav__button">
           <LogoutOutlinedIcon />
-          <span className="sidenav__buttonText">More</span>
+          <span className="sidenav__buttonText"onClick={handelLogout}>Logout</span>
         </button>
       </div>
        </div> 
