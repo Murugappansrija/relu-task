@@ -37,6 +37,7 @@
     width: 244px;
     background-color: aquamarine;
     border-radius: 10px;
+    display: flex;
 }
 .pht-containers{
    margin-top: 15px;
@@ -45,10 +46,16 @@
     display: flex;
     flex-direction: column;
     color: aliceblue;
+    height: 40px;
+}
+.cardimag{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 10px;
 }
 .smallimg{
     background-color: white;
     height: 50px;
     width: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
 }

@@ -21,8 +21,3 @@ const Timeline = () => {
 
 export default Timeline
 
-{/* <div className="bottom-card">
-<img />
-<h3 className="crd-title">Modern Wall Decor Framed Painting</h3>
-<div className="pricing">$199.99</div>
-</div> */}
