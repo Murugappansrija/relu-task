@@ -45,17 +45,43 @@
 .userdata{
     display: flex;
     flex-direction: column;
-    color: aliceblue;
-    height: 40px;
+    /* color: aliceblue; */
+    
 }
 .cardimag{
     display: flex;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 10px;
+
 }
 .smallimg{
-    background-color: white;
-    height: 50px;
-    width: 50px;
-    margin-left: 20px;
+    /* background-color: white; */
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: none;
+}
+.profile-outside{
+    background-color: bisque;
+    height: 60px;
+    width: 60px;
+    margin: 35px 0px 5px 20px;
+}
+.profilephoto{
+    height: 85px;
+    width: 85px;
+    
+  
+}
+.inside-card{
+    display: flex;
+    justify-content: space-between;
+ 
+    
+}
+.userinfo-text{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 20px 10px 30px;
+    color: white;
 }

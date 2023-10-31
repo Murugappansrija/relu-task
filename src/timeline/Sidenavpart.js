@@ -50,17 +50,18 @@ const Sidenavpart = () => {
           className="pht-containers"
           style={{ backgroundImage: `url(${post.bacgroundimage})` }}
         >
-          <div className="cardimag">
-            <div
-              className="smallimg"
-              style={{ backgroundImage: `url(${post.userimage})` }}
-            >
+          <div className="inside-card">
+            <div className="profile-outside">
+             
+              <img  className="profilephoto"   style={{ backgroundImage: `url(${post.userimage})` }}/> 
+              
+            </div>
+            <div className="userinfo-text">
+              <span>post.username</span>
+              <span>@thewildwithyou</span>
 
             </div>
-            <div className="userdata">
-              <span className="prname">{post.username}</span>
-              <span>@thewildwithyou</span>
-            </div>
+
           </div>
         </div>
       ))}
@@ -69,4 +70,3 @@ const Sidenavpart = () => {
 };
 
 export default Sidenavpart;
-

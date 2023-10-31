@@ -9,13 +9,26 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ShortcutOutlinedIcon from "@mui/icons-material/ShortcutOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
+
 import prophoto2 from "./pexels-tobias-bjørkli-2236382.png";
 import dp2 from "./pexels-imad-clicks-9810659.png";
+import Botoomnav from "../Botoomnav";
+
 const Post = () => {
   return (
+   
     <div className="posts">
       <form className="search">
-        <input type="text" placeholder="Search here.." />
+        <div lassName="searchicon">
+          
+         
+          <input
+            type="text"
+            placeholder="Search here.."
+            className="in-search"
+          />
+           </div>
+        
       </form>
       <div className="main-post">
         <div className="pepleposts">
@@ -75,6 +88,8 @@ const Post = () => {
       </div>
      
     </div>
+    
+    
   );
 };
 

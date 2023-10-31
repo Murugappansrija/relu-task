@@ -8,3 +8,7 @@
 .timeline{
     flex: 0.75; 
 }
+.clwarrper{
+    display: flex;
+    flex-direction: column;
+}
